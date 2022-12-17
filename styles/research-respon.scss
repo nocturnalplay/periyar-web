@@ -1,0 +1,68 @@
+@media screen and (max-width: 800px) {
+  .bors-members {
+    .bors-members-list {
+      grid-template-columns: repeat(1, 1fr);
+      .bors-members-card {
+        width: 100%;
+      }
+    }
+  }
+  .periyar-clone-journal {
+    flex-direction: column;
+    padding: 20px;
+    div {
+      width: 100%;
+    }
+    div:nth-child(2) {
+      margin-top: 30px;
+    }
+  }
+  .list-of-guid {
+    height: 180vh;
+  }
+  .regulation {
+    flex-direction: column;
+    .regulation-menu {
+      width: 100%;
+    }
+    .regulation-content {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 608px) {
+  .list-of-guid {
+    transform: translate(0, -170px);
+    height: 180vh;
+  }
+}
+@media screen and (max-width: 567px) {
+  .list-of-guid {
+    transform: translate(0, -200px);
+    height: 180vh;
+  }
+  
+}
+@media screen and (max-width: 497px) {
+  .list-of-guid {
+    transform: translate(0, -240px);
+    height: 150vh;
+  }
+}
+@media screen and (max-width: 420px) {
+  .bors-members {
+    .bors-members-list {
+      .bors-members-card {
+        width: 100%;
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1400px) {
+  .bors-members {
+    .bors-members-list {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

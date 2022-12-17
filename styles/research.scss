@@ -1,0 +1,344 @@
+.periyar-research-home {
+  width: 100%;
+}
+.research-portal {
+  width: 100%;
+  padding: 20px;
+  .research-portal-body {
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.34);
+    padding: 20px;
+    .research-portal-menu {
+      max-width: 300px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.34);
+      border-radius: 4px;
+      height: fit-content;
+      b {
+        text-transform: capitalize;
+        cursor: pointer;
+        padding: 8px 15px;
+        transition: 0.3s;
+        &:hover {
+          background-color: rgba(3, 27, 104, 0.605);
+          color: var(--primary-fg);
+          font-weight: 500;
+        }
+      }
+      .active {
+        background-color: var(--primary-bg);
+        color: var(--primary-fg);
+        font-weight: 500;
+        &:hover {
+          background-color: var(--primary-bg);
+          color: var(--primary-fg);
+          font-weight: 500;
+        }
+      }
+    }
+    .research-portal-list {
+      margin-left: 20px;
+      width: 100%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.34);
+      border-radius: 4px;
+      height: fit-content;
+      padding: 20px;
+      h1 {
+        text-transform: capitalize;
+        padding: 5px 15px;
+        color: var(--primary-title);
+      }
+      .portal-list {
+        display: flex;
+        flex-direction: column;
+        li {
+          margin: 5px 0 0 35px;
+          a {
+            width: fit-content;
+            color: var(--primary-font);
+            transition: 0.3s;
+            &:hover {
+              border-bottom: 1px solid var(--primary-font);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//board members design
+.board-members {
+  width: 100%;
+  .board-members-list {
+    width: 100%;
+    padding: 20px;
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+      th {
+        text-transform: capitalize;
+        background-color: var(--primary-bg);
+        color: var(--primary-fg);
+        text-align: left;
+      }
+      th,
+      td {
+        padding: 5px;
+        border: 1px solid gray;
+      }
+      td {
+        border-bottom: 1px solid rgba(34, 34, 34, 0.384);
+        padding-left: 20px;
+      }
+      tr:nth-child(even) {
+        background-color: #0000001f;
+      }
+    }
+  }
+}
+
+//bors members list and card design
+.bors-members {
+  width: 100%;
+  padding: 20px;
+  .bors-members-list {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.008);
+    padding: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+    // grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+  }
+  .bors-members-card {
+    background-color: var(--primary-fg);
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.219);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    span:nth-child(1) {
+      color: var(--primary-bg);
+      font-weight: 900;
+      font-size: 22px;
+    }
+    transition: 0.5s;
+    &:hover {
+      background-color: rgb(19, 19, 85);
+      color: var(--primary-fg);
+      transform: translate(0, -10px);
+      span:nth-child(1) {
+        color: var(--primary-fg);
+        font-weight: 900;
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+//design for the list of guid
+.list-of-guid {
+  width: 100%;
+  height: 130vh;
+  transform: translate(0, -140px);
+  z-index: -1;
+}
+
+//menu for all content
+@mixin menu_content {
+  background-color: var(--primary-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  gap: 10px;
+  border-radius: 4px;
+  span {
+    width: 100%;
+    padding: 5px;
+    color: var(--primary-fg);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover {
+      background-color: var(--primary-title);
+    }
+  }
+  .active {
+    background-color: var(--primary-title);
+    &:hover {
+      background-color: var(--primary-title);
+      opacity: 1;
+    }
+  }
+}
+//regulation
+.regulation {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  text-transform: capitalize;
+  // box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+  .regulation-menu {
+    @include menu_content();
+    width: 20%;
+  }
+  .regulation-content {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.415);
+    width: 80%;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-fg);
+    .regulation-content-body {
+      .title {
+        color: var(--primary-bg);
+        font-size: 25px;
+        b {
+          opacity: 0;
+          animation: regulation-list 0.5s 0.1s ease-in-out forwards;
+        }
+      }
+      .regulation-content-list {
+        li {
+          opacity: 0;
+          animation: regulation-list 0.5s 0.3s ease-in-out forwards;
+          cursor: pointer;
+          transition: 0.4s;
+          width: fit-content;
+          position: relative;
+          button {
+            a {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 1px;
+            }
+            margin-left: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            outline: none;
+            padding: 2px 4px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: 0.3s;
+            text-transform: capitalize;
+            &:hover {
+              box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.226);
+            }
+          }
+          &:hover {
+            color: var(--primary-bg);
+            font-weight: 900;
+          }
+          position: relative;
+          // a {
+          //   &::after {
+          //     content: "";
+          //     position: absolute;
+          //     background-image: linear-gradient(
+          //       to right,
+          //       transparent,
+          //       var(--primary-bg)
+          //     );
+          //     width: 0;
+          //     height: 1.5px;
+          //     bottom: -2px;
+          //     left: 0;
+          //     opacity: 0;
+          //     transition: 0.4s;
+          //   }
+          //   &:hover::after {
+          //     opacity: 1;
+          //     width: 100%;
+          //   }
+          // }
+        }
+        margin-left: 40px;
+      }
+    }
+    .regulation-content-list-content {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      top: -20%;
+      right: 0;
+      z-index: 1000;
+      background-color: var(--primary-bg);
+      border-radius: 4px;
+      padding: 10px 20px;
+      color: var(--primary-fg);
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.478);
+      animation: lcContent 0.4s linear forwards;
+      span {
+        font-size: 30px;
+        display: block;
+        border-bottom: 1px solid rgb(255, 241, 241);
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+      li {
+        b {
+          font-family: "Courier New", Courier, monospace;
+        }
+      }
+    }
+  }
+}
+
+@keyframes regulation-list {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes lcContent {
+  80% {
+    top: 12%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+// periyar clone journal
+.periyar-clone-journal {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  div {
+    width: 50%;
+    height: 100vh;
+    h2 {
+      width: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      color: var(--primary-bg);
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border: 1px solid rgba(0, 0, 0, 0.331);
+      border-radius: 4px;
+    }
+  }
+}

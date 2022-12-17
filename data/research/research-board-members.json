@@ -1,0 +1,157 @@
+[
+  {
+    "id": "1",
+    "name": "Prof.Dr.R.Jagannathan",
+    "post": ["Vice chancellor"],
+    "institue": "Periyar University, Salem - 11",
+    "category": "Chairman, Ex-officio"
+  },
+  {
+    "id": "2",
+    "name": "Dr.P.Prakash",
+    "post": ["R & D Coordinator"],
+    "institue": "Periyar University, Salem - 11",
+    "category": "Member, Ex-officio"
+  },
+  {
+    "id": "3",
+    "name": "Dean",
+    "post": ["College Development Council"],
+    "institue": "Periyar University, Salem - 11",
+    "category": "Member, Ex-officio"
+  },
+  {
+    "id": "4",
+    "name": "Dean",
+    "post": ["Research Affairs"],
+    "institue": "Periyar University, Salem - 11",
+    "category": "Member, Ex-officio"
+  },
+  {
+    "id": "5",
+    "name": "Dr.V.Raj",
+    "post": ["Member Syndicate, Dean Student Affairs, Professor and Head"],
+    "Dept": "Department of Chemistry",
+    "institue": "Periyar University, Salem - 11",
+    "category": "Member"
+  },
+  {
+    "id": "6",
+    "name": "Dr.S.Kannan",
+    "post": ["Professor and Head"],
+    "dept": "Department of Zoology,",
+    "institue": "Periyar University, Salem - 11",
+    "category": "Member"
+  },
+  {
+    "id": "7",
+    "name": "Dr.K.Murugesan",
+    "post": ["Professor and Head"],
+    "dept": "Department of Biotechnology",
+    "institue": "Periyar University, Salem - 11",
+    "category": "Member"
+  },
+  {
+    "id": "8",
+    "name": "Dr.N.Elangovan",
+    "post": ["Professor and Head"],
+    "grade":"PG Extension Center",
+    "dept": "PG Extension center",
+    "institue": "Periyar University, Dharmapuri",
+    "category": "Member"
+  },
+  {
+    "id": "9",
+    "name": "Dr.K.Jayaraman",
+    "post": ["Professor and Head"],
+    "dept": "Department of Economics",
+    "institue": "Periyar University, Salem - 11",
+    "category": "Member"
+  },
+  {
+    "id": "10",
+    "name": "Dr.G.Yoganandan",
+    "post": ["Professor"],
+    "dept": "Department of Management Studies",
+    "institue": "Periyar University, Salem - 11",
+    "category": "Member"
+  },
+  {
+    "id": "11",
+    "name": "Dr.K.Srinivasan",
+    "post": ["Professor and Dean Faculty of Science"],
+    "institue": "Bharathiar University, Coimbatore-641046",
+    "category": "External Member"
+  },
+  {
+    "id": "12",
+    "name": "Dr.Michael Gromiha",
+    "post": ["Professor"],
+    "dept": "Department of Biotechnology",
+    "institue": "Indian Institue of Technology Madras, Chennai-600036",
+    "category": "External Member"
+  },
+  {
+    "id": "13",
+    "name": "Dr.Sigamani Panneer",
+    "post": ["Professor & Head"],
+    "dept": "Department of Social work",
+    "institue": "Central University of Tamil Nadu, Thiruvarur",
+    "category": "External Member"
+  },
+  {
+    "id": "14",
+    "name": "Sri.Chocko Valliappa",
+    "post": ["Vice Chairman"],
+    "institue": "Sona COllege of Technology, Salem-636005",
+    "category": "Member-Industry"
+  },
+  {
+    "id": "15",
+    "name": "Sri.Sundaram Ramaswamy",
+    "post": [
+      "Founder and Managing Director"
+    ],
+    "institue": "Aerospace Engineers private Limited",
+    "category": "Member-Industry"
+  },
+  {
+    "id": "16",
+    "name": "Controller of Examinations",
+    "post": [],
+    "institue": "Periyar University, Salem - 11",
+    "category": "special invitee"
+  },
+  {
+    "id": "17",
+    "name": "Dr.P.Siva Kumar",
+    "post": ["Assitant Professor"],
+    "dept": "Department of Chemistry",
+    "institue": "Arignar Anna Government Arts College, Namaakkal-637002",
+    "category": "special invitee"
+  },
+  {
+    "id": "18",
+    "name": "Dr.N.Karmegam",
+    "post": ["Assistant  Professor"],
+    "dept": "Department of Botany",
+    "institue": "Goverment Arts COllege (Autonomous), Salem-636007",
+    "category": "special invitee"
+  },
+  {
+    "id": "19",
+    "name": "Dr.(Tmt)J.Thenmozhi",
+    "post": ["Associate Professor & Head"],
+    "dept": "Department of English",
+    "institue": "Sri Sarada College for Women Salem-63016",
+    "category": "special invitee"
+  },
+  {
+    "id": "20",
+    "name": "Dr.G.Saravanan",
+    "post": ["Assistant  Professor"],
+    "dept": "Department of Biochemistry",
+    "institue": "K.S.R College of Arts and Science, Thiruchengodu-637215",
+    "category": "special invitee"
+  }
+]

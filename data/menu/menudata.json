@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Home",
+    "link": "https://www.periyaruniversity.ac.in"
+  },
+  {
+    "title": "About us",
+    "link": "/about-us"
+  },
+  {
+    "title": "BORS Members",
+    "link": "/bors-members#bors"
+  },
+  {
+    "title": "Regulations",
+    "link": "/regulations#regulation"
+  },
+  {
+    "title": "Admission",
+    "link": "/admission#admission"
+  },
+  {
+    "title": "List of Centers",
+    "link": "/list-of-center#center"
+  },
+  {
+    "title": "List of Guide",
+    "link": "/list-of-guide#guid"
+  },
+  {
+    "title": "Circular",
+    "link": "/circular#circle"
+  },
+  {
+    "title": "Downloads",
+    "link": "/downloads#download",
+    "submenu": [
+      {
+        "title": "Ph.D",
+        "link": "/downloads?p=phd&i=0#download"
+      },
+      {
+        "title": "D.Sc / D.Litt",
+        "link": "/downloads?p=dsc-dlit&i=1#download"
+      }
+    ]
+  },
+  {
+    "title": "Journal",
+    "link": "/clone-journal#journal"
+  },
+  {
+    "title": "Contact",
+    "link": "/contact#contact"
+  }
+]

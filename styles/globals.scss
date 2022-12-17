@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "menu.scss";
+@import "menu-respon.scss";
+@import "research.scss";
+@import "research-respon.scss";
+@import "download.scss";
+@import "download-respon.scss";
+@import "about.scss";
+
+@font-face {
+  font-family: myTamilFont;
+  src: url("/Vijaya-Bold.ttf");
+}
+@font-face {
+  font-family: myEnglishFont;
+  src: url("/Bookman.ttf");
+}
+
+:root {
+  --primary-bg: #4b0e96;
+  --secondary-bg: #e9e9ff;
+  --primary-title: #d20d03bb;
+  --primary-font: #004080;
+  --primary-fg: #ffffff;
+  --primary-badge: #dc3545;
+  --primary-pop: #034d57;
+  --link-fg: #004cff;
+  --table-bg: #17a2b8;
+  --tamil-bg: #ae0e2a;
+  --research-bg:#7bf304;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  scroll-behavior: smooth;
+  background-color: var(--secondary-bg);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  // font-family: Bookman Old Style;
+}
+#topview {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--primary-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  cursor: pointer;
+  z-index: 1000;
+  border-radius: 5px;
+  padding: 0 3px;
+  height: 34px;
+  img {
+    margin-top: 2px;
+    filter: invert(1);
+  }
+}
+.circular-popup {
+  position: fixed;
+  background-color: var(--primary-pop);
+  color: white;
+  padding: 7px 20px;
+  border-radius: 4px;
+  bottom: 20px;
+  right: -30rem;
+  width: 350px;
+  overflow: hidden;
+  transition: 0.3s;
+  animation: circular-pop 0.5s ease-in-out forwards;
+  cursor: pointer;
+  &:hover .pop-close {
+    right: 0px;
+  }
+  .pop-close {
+    transition: 0.3s;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    right: -60px;
+    font-size: 45px;
+    background-color: #004080;
+    width: 0px;
+    overflow: hidden;
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pop-title {
+    h3 {
+      text-transform: capitalize;
+      border-bottom: 1px solid rgba(211, 211, 211, 0.459);
+      display: flex;
+      justify-content: space-between;
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@keyframes circular-pop {
+  70% {
+    right: 2rem;
+  }
+  100% {
+    right: 1rem;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .circular-popup {
+    display: none;
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "menu": [
+    {
+      "title": "research",
+      "subdata": [
+        {
+          "link": "http://65.0.100.133/rsm/",
+          "title": "Research Online Portal"
+        },
+        {
+          "link": "/research/boardmembers",
+          "title": "Board of Research Studies (BORS) Members List"
+        },
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2021/phd/Bors_minutes.pdf",
+          "title": "Board of Research Studies (BORS) Minutes"
+        }
+      ]
+    },
+    {
+      "title": "UGC Regulations",
+      "subdata": [
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2020/Research/ugcnotification.pdf",
+          "title": "UGC Regulations, 2016 (Minimum Standards and Procedure for Award of M.Phil./Ph.D Degree)"
+        },
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2020/Research/reg.pdf",
+          "title": "UGC Revised M.Phil/Ph.D Degree Regulation"
+        },
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2021/phd/regular.pdf",
+          "title": "UGC Regulation - Ph.D Regular Mode"
+        },
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2020/Research/UGC_Good Academic research practices GARP_2020.pdf",
+          "title": "UGC Guidance - Good Academic Research Practices (GARP)"
+        }
+      ]
+    },
+    {
+      "title": "University Regulations",
+      "subdata": [
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2020/Research/mphil.pdf",
+          "title": "Regulations of M.Phil (As per UGC 2016)"
+        },
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2021/phd/PhD_regulations.pdf",
+          "title": "Regulations of Ph.D (As per UGC 2016)"
+        },
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2020/Research/dscdlitappli.pdf",
+          "title": "REGULATIONS FOR THE DEGREE OF DOCTOR OF SCIENCE (D.Sc.) / DOCTOR OF LETTERS (D.Litt.)"
+        }
+      ]
+    },
+    {
+      "title": "Approved Colleges for Conducting Research Programmes",
+      "subdata": [
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2022/Research/college_phd_list_15_09.pdf",
+          "title": "List of Affiliated Colleges and Research Institutions Recognized to Conduct Ph.D. Programmes"
+        },
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2020/Research/mphil_20_21.pdf",
+          "title": "List of Affiliated Colleges and Research Institutions Recognized to Conduct M.Phil Programmes"
+        }
+      ]
+    },
+    {
+      "title": "Approved Research Supervisors",
+      "subdata": [
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2020/Research/guides.pdf",
+          "title": "List of Ph.D Supervisors ( University Departments )"
+        },
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2022/Mphil/mphil.pdf",
+          "title": "List of M.Phil Approved Guides (College wise)"
+        }
+      ]
+    },
+    {
+      "title": "Downloads",
+      "subdata": [
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2021/phd/dlit.pdf",
+          "title": "DOCTOR OF LETTERS (D.Litt.) - Application"
+        },
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2021/phd/doc_com2.pdf",
+          "title": "Ph.D - Doctoral Commitee Format"
+        },
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2022/Research/guideship.pdf",
+          "title": "APPLICATION FOR M.Phil. and Ph.D.GUIDESHIP"
+        },
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2020/Research/Fees.pdf",
+          "title": "Fees Structure for Ph.D"
+        },
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2021/phd/plagiarism.pdf",
+          "title": "Certificate of Plagiarism - Ph.D"
+        },
+        {
+          "link": "https://www.periyaruniversity.ac.in/Documents/2020/11/biodata.pdf",
+          "title": "Bio-data for Examiner for Evaluation of Ph.D Thesis"
+        },
+        {
+          "link": "https://periyaruniversity.ac.in/Documents/2021/phd/coursework.pdf",
+          "title": "Ph.D - New Course Work"
+        },
+        {
+          "link": "https://periyaruniversity.ac.in/FundAgency.php",
+          "title": "Funding Agencies"
+        },
+        {
+          "link": "https://periyaruniversity.ac.in/Documents/2021/phd/Examiner_panel.pdf",
+          "title": "Panel of Experts to Evaluate Ph.D Thesis - New Format"
+        }
+      ]
+    }
+  ]
+}

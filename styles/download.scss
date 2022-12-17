@@ -1,0 +1,184 @@
+//downloads load
+.downloads {
+  .downloads-menu {
+    padding: 10px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    span:last-child {
+      border: none;
+    }
+    span {
+      cursor: pointer;
+      transition: 0.3s;
+      border-right: 1px solid gray;
+      padding-right: 5px;
+      &:hover {
+        color: var(--primary-badge);
+        font-weight: 900;
+      }
+    }
+    .active {
+      color: var(--primary-badge);
+      font-weight: 900;
+    }
+  }
+  padding: 10px 40px;
+  .download-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 20px;
+    margin-top: 20px;
+    .download-card {
+      animation: dcard 0.5s linear forwards;
+      transform: translate(0, 10px);
+      opacity: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.26);
+      background-color: var(--primary-fg);
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        transform: translate(0, -5px);
+        background-color: var(--primary-bg);
+        color: #fff;
+        font-weight: 900;
+        box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.37);
+      }
+      button {
+        border: none;
+        outline: none;
+        display: block;
+        width: fit-content;
+        background-color: #fff;
+        padding: 2px 4px;
+        border-radius: 4px;
+        margin: auto;
+        text-transform: capitalize;
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+@keyframes dcard {
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+// //circular design
+// .circular-body {
+//   h1{
+//     text-transform: capitalize;
+//     padding-left: 10px;
+//   }
+//   .circular-content {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 50px;
+//     flex-wrap: wrap;
+//     .circular-card {
+//       background-color: var(--primary-fg);
+//       width: 300px;
+//       border-radius: 4px;
+//       box-shadow: 0 0 10px rgba(0, 0, 0, 0.432);
+//       transition: 0.3s;
+//       &:hover{
+//         box-shadow: 0 0 50px rgba(0, 0, 0, 0.432);
+//         transform: translate(0,-10px);
+//       }
+//       a {
+//         width: 100%;
+//         display: flex;
+//         flex-direction: column;
+//         border-radius: 4px;
+//         h2{
+//           background-color: var(--primary-bg);
+//           color: #fff;
+//           text-align: center;
+//           border-top-left-radius: 4px;
+//           border-top-right-radius: 4px;
+//           padding: 10px 0;
+//         }
+//         header{
+//           padding: 20px;
+//         }
+//         .circular-date{
+//           background-color: var(--primary-bg);
+//           text-transform: capitalize;
+//           color: #fff;
+//           text-align: center;
+//           border-bottom-left-radius: 4px;
+//           border-bottom-right-radius: 4px;
+//           b{
+//             margin-left: 10px;
+//             color: var(--primary-badge);
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+//circular design
+.circular-body {
+  h1 {
+    text-transform: capitalize;
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+  .circular-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 20px;
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      tr {
+        td:nth-child(2) {
+          color: var(--primary-title);
+          text-align: center;
+        }
+        td:nth-child(1) {
+          text-align: center;
+        }
+      }
+      th {
+        text-transform: capitalize;
+        color: var(--primary-fg);
+        background-color: var(--primary-bg);
+      }
+      th,
+      td {
+        border: 2px solid rgba(2, 2, 2, 0.077);
+        padding: 2px 5px;
+      }
+      td {
+        a {
+          color: var(--link-fg);
+          transition: 0.3s;
+          &:hover {
+            font-weight: 800;
+          }
+        }
+      }
+    }
+  }
+}

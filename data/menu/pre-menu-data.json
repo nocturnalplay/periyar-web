@@ -1,0 +1,349 @@
+[
+  {
+    "title": "University",
+    "submenu": [
+      {
+        "link": "https://www.periyaruniversity.ac.in/AboutUs.php",
+        "title": "About University"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/VCDesk.php",
+        "title": "VC Desk"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/services.php",
+        "title": "Services"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Facilities.php",
+        "title": "Facilities"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Documents/2016/01/ACT-STATUTES-Book-2016.pdf",
+        "title": "Act and Statutes"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/rollcall.php",
+        "title": "Roll Call"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Major_Achievements.php",
+        "title": "Major Achievements"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Documents/2021/organogram.pdf",
+        "title": "Organogram "
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/campusmap.php",
+        "title": "Campus Map"
+      }
+    ]
+  },
+  {
+    "title": "Authorities",
+    "submenu": [
+      {
+        "link": "https://www.periyaruniversity.ac.in/chancellor.php",
+        "title": "Chancellor"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/prochancellor.php",
+        "title": "Pro Chancellor"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/vicechancellor.php",
+        "title": "Vice Chancellor"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Syndicate.php",
+        "title": "Members of Syndicate"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Senate.php",
+        "title": "Members of Senate"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/scaa.php",
+        "title": "Members of Standing Committee"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/PlanningBoard.php",
+        "title": "Planning Board"
+      }
+    ]
+  },
+  {
+    "title": "Administration",
+    "submenu": [
+      {
+        "link": "https://www.periyaruniversity.ac.in/registrar.php",
+        "title": "Registrar"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/coe.php",
+        "title": "Controller of Examinations"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Dean.php",
+        "title": "Deans and Coordinators"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Finance.php",
+        "title": "Finance Officer"
+      }
+    ]
+  },
+  {
+    "title": "Academic",
+    "submenu": [
+      {
+        "link": "https://www.periyaruniversity.ac.in/Dept.php",
+        "title": "Schools and Departments"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Documents/2021/CBCS_Regulations.pdf",
+        "title": "CBCS Regulations"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Centres.php",
+        "title": "Centres and Cells "
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Awards.php",
+        "title": "Awards and Honors"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Dept/pgex.php",
+        "title": "PG Extension Centre"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Community_Colleges.php",
+        "title": "Community Colleges"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Affiliated_Colleges.php",
+        "title": "Affiliated Colleges"
+      },
+      {
+        "title": "BOS Members",
+        "submenu1": [
+          {
+            "link": "https://www.periyaruniversity.ac.in/Documents/2022/CDC/ud_bos_members.pdf",
+            "title": "University Departments"
+          },
+          {
+            "link": "https://www.periyaruniversity.ac.in/Documents/2022/CDC/UG_BOS_Members.pdf",
+            "title": "Affiliated Colleges for UG Programmes"
+          },
+          {
+            "link": "https://www.periyaruniversity.ac.in/Documents/2022/CDC/PG_BOS_Members.pdf",
+            "title": "Affiliated Colleges for PG Programmes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Admission",
+    "submenu": [
+      {
+        "link": "https://www.periyaruniversity.ac.in/Admission_Details.php",
+        "title": "Admission Details"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Eligi.php",
+        "title": "Eligibility Details"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/fees.php",
+        "title": "Fees Structure"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Prospectus.php",
+        "title": "Prospectus"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/StudentCorner.php",
+        "title": "Scholarships"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Fellowship.php",
+        "title": "Fellowship"
+      },
+      {
+        "title": "Programmes offered",
+        "submenu1": [
+          {
+            "link": "https://www.periyaruniversity.ac.in/Programmes_offered.php",
+            "title": "University Departments"
+          },
+          {
+            "link": "https://www.periyaruniversity.ac.in/Programmes_offered_college22-23.php",
+            "title": "Affiliated Colleges"
+          },
+          {
+            "link": "https://www.periyaruniversity.ac.in/uicp.php",
+            "title": "Industry – Academia Collaborative  Programmes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Research",
+    "submenu": [
+      {
+        "link": "https://www.periyaruniversity.ac.in/Research.php",
+        "title": "Research Portal"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/research_centres.php",
+        "title": "Research Centres"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Documents/2021/Patents.pdf",
+        "title": "Patents"
+      },
+      {
+        "title": "Research Projects",
+        "submenu1": [
+          {
+            "link": "https://www.periyaruniversity.ac.in/FundAgency.php",
+            "title": "Research Funding Agencies"
+          },
+          {
+            "link": "https://www.periyaruniversity.ac.in/Documents/2021/Research_Projects.pdf",
+            "title": "Funded Research Projects"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Examination",
+    "submenu": [
+      {
+        "link": "https://www.periyaruniversity.ac.in/fees.php",
+        "title": "Revised Fees &amp; PRIDE Fees Structure"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/unclime.php",
+        "title": "Unclaimed Certificates"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/esanad.php",
+        "title": "E-Sanad Services"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/COEExamSche.php",
+        "title": "Examination Schedule"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Result.php",
+        "title": "Results"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Download.php",
+        "title": "Downloads "
+      }
+    ]
+  },
+  {
+    "title": "IQAC",
+    "submenu": [
+      {
+        "link": "https://www.periyaruniversity.ac.in/aboutiqac.php",
+        "title": "About IQAC"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/iqac.php",
+        "title": "Members"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/nacc.php",
+        "title": "NAAC-Reaccreditation"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Policies.php",
+        "title": "Policies"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/Strategic_Plan.php",
+        "title": "Strategic Plan "
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/aqar.php",
+        "title": "AQAR"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/feedbacksystem.php",
+        "title": "Feedback System"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/bestpractices.php",
+        "title": "Best Practices"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/aqar2021.php",
+        "title": " Format AQAR 2020-21"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/annualreport.php",
+        "title": "Annual Report"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/program_brochure.php",
+        "title": "Programme Brochure"
+      },
+      {
+        "title": "IQAC Meetings",
+        "submenu1": [
+          {
+            "link": "https://www.periyaruniversity.ac.in/iqcmeet.php",
+            "title": " Meetings Minutes"
+          },
+          {
+            "link": "https://www.periyaruniversity.ac.in/iqcatr.php",
+            "title": " Action Taken Report"
+          }
+        ]
+      },
+      {
+        "title": "IIC",
+        "submenu1": [
+          {
+            "link": "https://www.periyaruniversity.ac.in/iic/",
+            "title": " NISP"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Ranking",
+    "submenu": [
+      {
+        "link": "https://www.periyaruniversity.ac.in/ariia.php",
+        "title": "ARIIA"
+      },
+      {
+        "link": "https://www.periyaruniversity.ac.in/nirf.php",
+        "title": "NIRF"
+      }
+    ]
+  },
+  {
+    "title": "DistanceEdu",
+    "submenu": [
+      {
+        "link": "https://www.periyaruniversity.ac.in/pride_menu.php",
+        "title": "PUCODE"
+      },
+      {
+        "link": "https://online.periyaruniversity.ac.in/",
+        "title": "Online Programmes"
+      }
+    ]
+  }
+]

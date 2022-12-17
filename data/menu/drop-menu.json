@@ -1,0 +1,15 @@
+[
+  {
+    "title": "downloads",
+    "submenu": [
+      {
+        "title": "Ph.D",
+        "value": "phd"
+      },
+      {
+        "title": "D.Sc / D.Litt",
+        "value": "dsc-dlit"
+      }
+    ]
+  }
+]

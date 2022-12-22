@@ -15,6 +15,7 @@ export default function Document() {
                     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
                     crossorigin="anonymous"
                 /> */}
+                <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
             </Head>
             <body>
                 <Main />

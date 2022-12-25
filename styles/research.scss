@@ -222,6 +222,8 @@
           transition: 0.4s;
           width: fit-content;
           position: relative;
+          transition: 0.3s;
+          color: black;
           button {
             a {
               display: flex;
@@ -246,30 +248,29 @@
           }
           &:hover {
             color: var(--primary-bg);
-            font-weight: 900;
           }
           position: relative;
-          // a {
-          //   &::after {
-          //     content: "";
-          //     position: absolute;
-          //     background-image: linear-gradient(
-          //       to right,
-          //       transparent,
-          //       var(--primary-bg)
-          //     );
-          //     width: 0;
-          //     height: 1.5px;
-          //     bottom: -2px;
-          //     left: 0;
-          //     opacity: 0;
-          //     transition: 0.4s;
-          //   }
-          //   &:hover::after {
-          //     opacity: 1;
-          //     width: 100%;
-          //   }
-          // }
+        }
+        .under-flow {
+          &::after {
+            content: "";
+            position: absolute;
+            background-image: linear-gradient(
+              to right,
+              transparent,
+              var(--primary-bg)
+            );
+            width: 0;
+            height: 1.5px;
+            bottom: -2px;
+            left: 0;
+            opacity: 0;
+            transition: 0.4s;
+          }
+          &:hover::after {
+            opacity: 1;
+            width: 100%;
+          }
         }
         margin-left: 40px;
       }

@@ -9,7 +9,7 @@ export default function Menu() {
     <div className="periyar-menu">
       <Title />
       <Header />
-      <Submenu />
+      {/* <Submenu /> */}
       {/* <ResearchPortal /> */}
       <Top />
     </div >

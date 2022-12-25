@@ -4,7 +4,7 @@ export default function header() {
   return (
     <div className="periyar-research-header">
       <a href="https://www.periyaruniversity.ac.in/">
-        <img src="/periyar.png" alt="Logo" />
+        <img src="/research/periyar.png" alt="Logo" />
       </a>
       <div className="periyar-research-header1">
         <div className="periyar-research-header2">
@@ -24,7 +24,7 @@ export default function header() {
         </div>
       </div>
       <div className="col-md-2 text-center">
-        <img rel="preload" as="image" src="/periyar1.jpg" alt="Logo" />
+        <img rel="preload" as="image" src="/research/periyar1.jpg" alt="Logo" />
         <Link href="http://65.0.100.133/rsm" target="_blank">
           <h5 id="researchportal">
             <span></span>

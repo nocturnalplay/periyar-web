@@ -70,7 +70,7 @@ export default function Regulation() {
             {submenu_list.map((a, i) => {
               if (spanlist === i) {
                 return a.map((e, j) => (
-                  <li key={e.link} onClick={() => i == 2 && lcChange(j)}>
+                  <li class="under-flow" key={e.link} onClick={() => i == 2 && lcChange(j)}>
                     {e.link ? (
                       <>
                         <Link href={e.link} target="_blank">

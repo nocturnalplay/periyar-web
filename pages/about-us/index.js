@@ -97,7 +97,7 @@ export default function About() {
       Functions of Research and Development
       </h1>
       <span>
-        <img src="about-us-For.png" alt="About-Us-For"></img>
+        <img src="/research/about-us-For.png" alt="About-Us-For"></img>
       </span>
       <h1>Ph. D - Degree Awarded</h1>
       <div className="about-phd">
